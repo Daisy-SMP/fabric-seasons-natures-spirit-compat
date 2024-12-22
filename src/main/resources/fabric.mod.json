@@ -11,20 +11,14 @@
 		"homepage": "https://fabricmc.net/",
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
-	"license": "CC0-1.0",
+	"license": "MPL-2.0",
 	"icon": "assets/seasonsnaturesspiritcompat/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
 			"io.github.macuguita.SeasonsNaturesSpiritCompat"
-		],
-		"fabric-datagen": [
-			"io.github.macuguita.SeasonsNaturesSpiritCompatDataGenerator"
 		]
 	},
-	"mixins": [
-		"seasonsnaturesspiritcompat.mixins.json"
-	],
 	"depends": {
 		"fabricloader": ">=0.16.9",
 		"minecraft": "~1.21.1",

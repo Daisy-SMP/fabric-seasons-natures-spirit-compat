@@ -2,23 +2,23 @@ package io.github.macuguita;
 
 import net.fabricmc.api.ModInitializer;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import net.fabricmc.loader.api.FabricLoader;
+import net.fabricmc.loader.api.Version;
+
+import io.github.lucaargolo.seasons.FabricSeasons;
+import net.hibiscus.naturespirit.NatureSpirit;
 
 public class SeasonsNaturesSpiritCompat implements ModInitializer {
-	public static final String MOD_ID = "seasonsnaturesspiritcompat";
-
-	// This logger is used to write text to the console and the log file.
-	// It is considered best practice to use your mod id as the logger's name.
-	// That way, it's clear which mod wrote info, warnings, and errors.
-	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
+	private static final String MOD_ID = "seasonsnaturesspiritcompat";
 
 	@Override
 	public void onInitialize() {
-		// This code runs as soon as Minecraft is in a mod-load-ready state.
-		// However, some things (like resources) may still be uninitialized.
-		// Proceed with mild caution.
-
-		LOGGER.info("Hello Fabric world!");
+		FabricLoader.getInstance().getModContainer(MOD_ID).ifPresent(modContainer -> {
+			Version version = modContainer.getMetadata().getVersion();
+			String mod = version.getFriendlyString();
+			if(FabricLoader.getInstance().isModLoaded(NatureSpirit.MOD_ID)) {
+				FabricSeasons.LOGGER.info("[" + FabricSeasons.MOD_NAME + "] Successfully loaded " + MOD_ID + " " + mod + " for " + NatureSpirit.MOD_ID);
+			}
+		});
 	}
 }
