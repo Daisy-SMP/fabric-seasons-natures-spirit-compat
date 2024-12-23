@@ -15,6 +15,8 @@ repositories {
 		name = "Modrinth"
 		url = "https://api.modrinth.com/maven"
 	}
+	maven { url = 'https://maven.minecraftforge.net/' }
+	maven { url = 'https://maven.parchmentmc.org' }
 }
 
 fabricApi {
@@ -36,6 +38,14 @@ dependencies {
 	modImplementation "maven.modrinth:KJe6y9Eu:${project.fabric_seasons_version}"
 	//Nature's Spirit
 	modImplementation "maven.modrinth:WBvnqHfV:${project.natures_spirit_version}"
+	//Terrablender
+	modLocalRuntime "com.github.glitchfiend:TerraBlender-fabric:${project.terrablender_version}"
+	//EMI
+	modLocalRuntime "maven.modrinth:emi:1.1.18+1.21.1+fabric"
+	//Mod menu
+	modLocalRuntime "maven.modrinth:modmenu:11.0.3"
+	//Sodium
+	modLocalRuntime "maven.modrinth:sodium:mc1.21.1-0.6.5-fabric"
 }
 
 processResources {
