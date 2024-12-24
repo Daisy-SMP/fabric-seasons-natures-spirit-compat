@@ -1,0 +1,13 @@
+{
+  "textures": {
+    "summer": {
+      "all": "natures_spirit:block/mahogany_leaves"
+    },
+    "fall": {
+      "all": "natures_spirit:block/fall_mahogany_leaves"
+    },
+    "winter": {
+      "all": "natures_spirit:block/winter_mahogany_leaves"
+    }
+  }
+}

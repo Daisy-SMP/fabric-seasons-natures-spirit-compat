@@ -1,0 +1,13 @@
+{
+  "textures": {
+    "summer": {
+      "all": "natures_spirit:block/coconut_leaves_tip"
+    },
+    "fall": {
+      "all": "natures_spirit:block/fall_coconut_leaves_tip"
+    },
+    "winter": {
+      "all": "natures_spirit:block/winter_coconut_leaves_tip"
+    }
+  }
+}

@@ -46,6 +46,8 @@ dependencies {
 	modLocalRuntime "maven.modrinth:modmenu:11.0.3"
 	//Sodium
 	modLocalRuntime "maven.modrinth:sodium:mc1.21.1-0.6.5-fabric"
+	//Jade
+	modLocalRuntime "maven.modrinth:jade:15.9.2+fabric"
 }
 
 processResources {

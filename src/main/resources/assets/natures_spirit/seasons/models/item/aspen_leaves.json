@@ -1,0 +1,13 @@
+{
+  "textures": {
+    "summer": {
+      "all": "natures_spirit:block/aspen_leaves"
+    },
+    "fall": {
+      "all": "natures_spirit:block/fall_aspen_leaves"
+    },
+    "winter": {
+      "all": "natures_spirit:block/winter_aspen_leaves"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "textures": {
+    "summer": {
+      "all": "natures_spirit:block/cypress_leaves"
+    },
+    "fall": {
+      "all": "natures_spirit:block/fall_cypress_leaves"
+    },
+    "winter": {
+      "all": "natures_spirit:block/winter_cypress_leaves"
+    }
+  }
+}

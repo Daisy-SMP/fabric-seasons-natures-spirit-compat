@@ -1,0 +1,13 @@
+{
+  "textures": {
+    "summer": {
+      "all": "natures_spirit:block/redwood_leaves"
+    },
+    "fall": {
+      "all": "natures_spirit:block/fall_redwood_leaves"
+    },
+    "winter": {
+      "all": "natures_spirit:block/winter_redwood_leaves"
+    }
+  }
+}

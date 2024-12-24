@@ -1,0 +1,13 @@
+{
+  "textures": {
+    "summer": {
+      "all": "natures_spirit:block/part_pink_wisteria_leaves"
+    },
+    "fall": {
+      "all": "natures_spirit:block/fall_part_pink_wisteria_leaves"
+    },
+    "winter": {
+      "all": "natures_spirit:block/winter_part_pink_wisteria_leaves"
+    }
+  }
+}

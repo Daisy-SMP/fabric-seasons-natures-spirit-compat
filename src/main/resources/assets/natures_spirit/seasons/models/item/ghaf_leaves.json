@@ -1,0 +1,13 @@
+{
+  "textures": {
+    "summer": {
+      "all": "natures_spirit:block/ghaf_leaves"
+    },
+    "fall": {
+      "all": "natures_spirit:block/fall_ghaf_leaves"
+    },
+    "winter": {
+      "all": "natures_spirit:block/winter_ghaf_leaves"
+    }
+  }
+}
