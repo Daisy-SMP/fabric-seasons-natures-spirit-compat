@@ -3,7 +3,7 @@
 	"id": "seasonsnaturesspiritcompat",
 	"version": "${version}",
 	"name": "Seasons Nature's Spirit Compat",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "This is a compatibility layer between Nature's Spirit and Fabric Seasons",
 	"authors": [
 		"macuguita"
 	],
