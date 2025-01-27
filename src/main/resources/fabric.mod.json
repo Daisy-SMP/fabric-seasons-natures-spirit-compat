@@ -7,6 +7,9 @@
 	"authors": [
 		"macuguita"
 	],
+	"mixins": [
+		"seasonsnaturesspiritcompat.mixins.json"
+	],
 	"contact": {
 		"homepage": "https://github.com/macuguita",
 		"sources": "https://github.com/Slore-SMP/fabric-seasons-natures-spirit-compat"

@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "io.github.macuguita.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "ModConfigMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
