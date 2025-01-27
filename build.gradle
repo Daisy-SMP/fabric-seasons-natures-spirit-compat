@@ -39,7 +39,7 @@ dependencies {
 	//Nature's Spirit
 	modImplementation "maven.modrinth:WBvnqHfV:${project.natures_spirit_version}"
 	//Terrablender
-	modLocalRuntime "com.github.glitchfiend:TerraBlender-fabric:${project.terrablender_version}"
+	modLocalRuntime "maven.modrinth:terrablender:${project.terrablender_version}"
 	//EMI
 	modLocalRuntime "maven.modrinth:emi:1.1.18+1.21.1+fabric"
 	//Mod menu
@@ -59,7 +59,7 @@ processResources {
 }
 
 tasks.withType(JavaCompile).configureEach {
-	it.options.release = 21
+	it.options.release = 17
 }
 
 java {
@@ -68,8 +68,8 @@ java {
 	// If you remove this line, sources will not be generated.
 	withSourcesJar()
 
-	sourceCompatibility = JavaVersion.VERSION_21
-	targetCompatibility = JavaVersion.VERSION_21
+	sourceCompatibility = JavaVersion.VERSION_17
+	targetCompatibility = JavaVersion.VERSION_17
 }
 
 jar {
