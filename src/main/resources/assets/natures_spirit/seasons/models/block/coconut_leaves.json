@@ -1,13 +1,25 @@
 {
   "textures": {
     "summer": {
-      "all": "natures_spirit:block/coconut_leaves"
+      "0": "natures_spirit:block/coconut_leaves",
+      "1": "natures_spirit:block/coconut_leaves_tip",
+      "2": "natures_spirit:block/coconut_leaves_top",
+      "3": "natures_spirit:block/coconut_leaves_ends",
+      "particle": "natures_spirit:block/coconut_leaves"
     },
     "fall": {
-      "all": "natures_spirit:block/fall_coconut_leaves"
+      "0": "natures_spirit:block/fall_coconut_leaves",
+      "1": "natures_spirit:block/fall_coconut_leaves_tip",
+      "2": "natures_spirit:block/fall_coconut_leaves_top",
+      "3": "natures_spirit:block/fall_coconut_leaves_ends",
+      "particle": "natures_spirit:block/fall_coconut_leaves"
     },
     "winter": {
-      "all": "natures_spirit:block/winter_coconut_leaves"
+      "0": "natures_spirit:block/winter_coconut_leaves",
+      "1": "natures_spirit:block/winter_coconut_leaves_tip",
+      "2": "natures_spirit:block/winter_coconut_leaves_top",
+      "3": "natures_spirit:block/winter_coconut_leaves_ends",
+      "particle": "natures_spirit:block/winter_coconut_leaves"
     }
   }
 }
