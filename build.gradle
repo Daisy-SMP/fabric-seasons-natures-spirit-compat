@@ -34,12 +34,12 @@ dependencies {
 	// Fabric API. This is technically optional, but you probably want it anyway.
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 
-	//Fabric seasons
-	modImplementation "maven.modrinth:KJe6y9Eu:${project.fabric_seasons_version}"
 	//Terrablender
-	modImplementation "maven.modrinth:kkmrDlKT:${project.terrablender_version}"
+	modImplementation "com.github.glitchfiend:TerraBlender-fabric:${project.minecraft_version}-${project.terrablender_version}"
+	//Fabric seasons
+	modImplementation "maven.modrinth:fabric-seasons:${project.fabric_seasons_version}"
 	//Nature's Spirit
-	modImplementation "maven.modrinth:WBvnqHfV:${project.natures_spirit_version}"
+	modImplementation "maven.modrinth:natures-spirit:${project.natures_spirit_version}"
 }
 
 processResources {

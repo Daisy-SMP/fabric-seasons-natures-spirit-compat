@@ -1,13 +1,19 @@
 {
   "textures": {
     "summer": {
-      "all": "natures_spirit:block/joshua_leaves"
+      "1": "natures_spirit:block/joshua_ends",
+      "2": "natures_spirit:block/joshua_leaves",
+      "particle": "natures_spirit:block/joshua_leaves"
     },
     "fall": {
-      "all": "natures_spirit:block/fall_joshua_leaves"
+      "1": "natures_spirit:fall_block/fall_joshua_ends",
+      "2": "natures_spirit:fall_block/fall_joshua_leaves",
+      "particle": "natures_spirit:fall_block/fall_joshua_leaves"
     },
     "winter": {
-      "all": "natures_spirit:block/winter_joshua_leaves"
+      "1": "natures_spirit:block/winter_joshua_ends",
+      "2": "natures_spirit:block/winter_joshua_leaves",
+      "particle": "natures_spirit:block/winter_joshua_leaves"
     }
   }
 }
